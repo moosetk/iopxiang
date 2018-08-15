@@ -1,2 +1,41 @@
-127.0.0.1 localhost
-::1 localhost ip6-localhost ip6-loopback
+127.0.0.1 ieonline.microsoft.com
+
+2001:67c:2b0:db32:0:1:829e:4b23 www.vpngate.net
+2001:67c:2b0:db32:0:1:43c7:f80b bit.ly
+
+
+
+
+# Adobe 1.ɾԽC:\Program Files (x86)\Common Files\Adobe\Adobe PCD\cache\cache.dbۍC:\ProgramData\FLEXnet\adobe_00080000_tsf.data}ٶ݇¼τݾcѨҪעӢքˇì֚׾ٶτݾˇӾӘτݾì̹ӔҪЈʨ׃ДʾӾӘτݾc
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+#1380-1116-3895-6161-9341-0470
+#1380-1890-8397-1237-1511-0972
+#138011367462524851627338
+#2402:f000:1:405:166:111:5:99 iptv.tsinghua.edu.cn
+##DNS 2001:da8:8000:1:202:120:2:101/100
+##DNS 2001:470:20::2
+##DNS 2001:470:0:9d::2
+##DNS 2001:4860:4860::8888/6464
+##DNS 2606:4700:4700::1111/1001
+##netsh int ter set state enterpriseclient
+##netsh interface teredo set state disable
+##nameserver 2001:67c:2b0::4
+##nameserver 2001:67c:2b0::6
+##2001:67c:27e4:15::6411
+##2001:67c:27e4::64
+##2001:67c:27e4:15::64
+##2001:67c:27e4::60
+##nslookup qq.com. 2001:67c:2b0::4
