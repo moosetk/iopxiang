@@ -126,4 +126,5 @@
 ##2001:67c:27e4:15::64
 ##2001:67c:27e4::60
 ##nslookup qq.com. 2001:67c:2b0::4
+##dig @2001:67c:2b0::4 +vc +short aaaa www.google.com
 ##ipconfig /flushdns
