@@ -16,6 +16,9 @@ sh wireguard_install.sh
 
 vi /etc/wireguard/client.conf
 
+
+https://testflight.apple.com/join/9gbYAJLB
+
 增加peer
 
 1.生成密钥对
