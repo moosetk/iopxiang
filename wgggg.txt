@@ -1,0 +1,44 @@
+sudo -i
+
+yum -y install wget
+
+wget https://raw.githubusercontent.com/yobabyshark/wireguard/master/wireguard_install.sh
+
+sh wireguard_install.sh
+
+1
+
+重启 
+
+sudo -i
+
+sh wireguard_install.sh
+
+vi /etc/wireguard/client.conf
+
+增加peer
+
+1.生成密钥对
+wg genkey | tee tempkey | wg pubkey >> tempkey
+
+cat tempkey
+私 CPFjeQdkOg9k1IT3EjmH8rvhRjyb0A0KgwpYZuRwbEE=
+公 n43GgD0LnNKc3BAylKcCt2g/HafM1wPlO+CL8CfZcyE=
+
+sGadTP0ffA5IvbWXdwZB12d5QZlBl+qy1s3u5UChaHo=
+RZOnwmfeuLMxdO398H/o03hATj+vOnCaDVT2+/7LUg8=
+
+2.修改wg0
+vi wg0.conf
+字母 i
+
+添加peer
+[Peer]
+PublicKey = n43GgD0LnNKc3BAylKcCt2g/HafM1wPlO+CL8CfZcyE=
+AllowedIPs = 10.0.0.3/32
+
+esc 保存 :wq
+
+3.重启服务
+wg-quick down wg0
+wg-quick up wg0
