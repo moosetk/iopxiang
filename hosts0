@@ -71,10 +71,10 @@
 2001:67c:2b0:db32:0:1:c710:9c07	downloads.tweetdeck.com
 
 ## Scholar 学术搜索
-2404:6800:4008:c06::be scholar.google.com
-2404:6800:4008:c06::be scholar.google.com.hk
-2404:6800:4008:c06::be scholar.google.com.tw
-2a00:1450:400f:807::2003 scholar.google.cn #www.google.cn
+2404:6800:4004:81a::2003 scholar.google.com
+2404:6800:4004:81a::2003 scholar.google.com.hk
+2404:6800:4004:81a::2003 scholar.google.com.tw
+2404:6800:4004:81a::2003 scholar.google.cn
 
 2001:67c:2b0:db32:0:1:82d3:f96 www.ntdtv.com
 2001:67c:2b0:db32:0:1:c710:9c0b t.co
