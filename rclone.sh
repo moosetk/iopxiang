@@ -33,7 +33,7 @@ set +e
 for tool in ${unzip_tools_list[*]}; do
     trash=`hash $tool 2>>errors`
     if [ "$?" -eq 0 ]; then
-        unzip_tool="p7zip"
+        unzip_tool="7z"
         break
     fi
 done  
