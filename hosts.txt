@@ -1,0 +1,4 @@
+127.0.0.1 localhost
+::1 localhost
+104.29.64.42 cf.niou.cf
+2606:4700:3033::ac43:b4db cf.niou.cf
